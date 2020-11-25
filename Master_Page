@@ -1,0 +1,124 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_20203176YunSeungHyeok.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 800px;
+            height: 600px;
+        }
+        .auto-style2 {
+            width: 800px;
+            height: 50px;
+        }
+        .auto-style3 {
+            height: 500px;
+            width: 700px;
+        }
+        .auto-style4 {
+            height: 500px;
+            width: 100px;
+        }
+        .auto-style5 {
+            width: 800px;
+            height: 50px;
+            text-align: center;
+        }
+        .auto-style6 {
+            color: rgb(128, 128, 128);
+        }
+        .auto-style8 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        </div>
+    <table class="auto-style1">
+        <tr>
+            <td class="auto-style2" colspan="2">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/image/WebII_Newlogo.jpg" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style4" style="background-color: #E6E7EA">
+                <asp:TreeView ID="TreeView1" runat="server">
+                    <Nodes>
+                        <asp:TreeNode Text="Home" Value="Home" NavigateUrl="~/Home.aspx"></asp:TreeNode>
+                        <asp:TreeNode Text="AboutMe" Value="AboutMe" NavigateUrl="~/AboutMe.aspx"></asp:TreeNode>
+                        <asp:TreeNode Text="Prog_EX" Value="Prog_EX">
+                            <asp:TreeNode Text="Chap_4" Value="Chap_4">
+                                <asp:TreeNode NavigateUrl="~/Chapter4/Pro4-1-1.aspx" Text="Pro4-1-1" Value="Pro4-1-1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter4/Pro4-2-1.aspx" Text="Pro4-2-1" Value="Pro4-2-1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter4/Pro4-4-1.aspx" Text="Pro4-4-1" Value="Pro4-4-1"></asp:TreeNode>
+                            </asp:TreeNode>
+                            <asp:TreeNode Text="Chap_5" Value="Chap_5">
+                                <asp:TreeNode NavigateUrl="~/Chapter5/Pro5-3-2.aspx" Text="Pro5-3-2" Value="Pro5-3-2"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter5/Pro5-4-1.aspx" Text="Pro5-4-1" Value="Pro5-4-1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter5/Pro5-4-3.aspx" Text="Pro5-4-3" Value="Pro5-4-3"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter5/Pro5-5-2.aspx" Text="Pro5-5-2" Value="Pro5-5-2"></asp:TreeNode>
+                            </asp:TreeNode>
+                            <asp:TreeNode Text="Chap_6" Value="Chap_6">
+                                <asp:TreeNode NavigateUrl="~/Chapter6/Pro6-2-1.aspx" Text="Pro6-2-1" Value="Pro6-2-1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter6/Pro6-3-1.aspx" Text="Pro6-3-1" Value="Pro6-3-1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter6/Pro6-3-2.aspx" Text="Pro6-3-2" Value="Pro6-3-2"></asp:TreeNode>
+                            </asp:TreeNode>
+                            <asp:TreeNode Text="Chap_7" Value="Chap_7">
+                                <asp:TreeNode NavigateUrl="~/Chapter7/Pro7-2-1.aspx" Text="Pro7-2-1" Value="Pro7-2-1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter7/Pro7-3-1.aspx" Text="Pro7-3-1" Value="Pro7-3-1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter7/Pro7-4-1.aspx" Text="Pro7-4-1" Value="Pro7-4-1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter7/Pro7-5-1.aspx" Text="Pro7-5-1" Value="Pro7-5-1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter7/Pro7-6-1.aspx" Text="Pro7-6-1" Value="Pro7-6-1"></asp:TreeNode>
+                            </asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="Homework" Value="Homework">
+                            <asp:TreeNode Text="Chap_4" Value="Chap_4">
+                                <asp:TreeNode NavigateUrl="~/Chapter4/ASSIGNMENT_1.aspx" Text="ASSIGNMENT_1" Value="ASSIGNMENT_1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter4/ASSIGNMENT_2.aspx" Text="ASSIGNMENT_2" Value="ASSIGNMENT_2"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter4/ASSIGNMENT_3.aspx" Text="ASSIGNMENT_3" Value="ASSIGNMENT_3"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter4/ASSIGNMENT_4.aspx" Text="ASSIGNMENT_4" Value="ASSIGNMENT_4"></asp:TreeNode>
+                            </asp:TreeNode>
+                            <asp:TreeNode Text="Chap_5" Value="Chap_5">
+                                <asp:TreeNode NavigateUrl="~/Chapter5/ASSINMENT1.aspx" Text="ASSIGNMENT_1" Value="ASSINMENT_1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter5/ASSINMENT2.aspx" Text="ASSIGNMENT_2" Value="ASSINMENT_2"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter5/ASSINMENT3.aspx" Text="ASSIGNMENT_3" Value="새 노드"></asp:TreeNode>
+                            </asp:TreeNode>
+                            <asp:TreeNode Text="Chap_6" Value="Chap_6">
+                                <asp:TreeNode NavigateUrl="~/Chapter6/ASSINMENT_1.aspx" Text="ASSIGNMENT_1" Value="ASSINMENT_1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter6/ASSINMENT_2.aspx" Text="ASSIGNMENT_2" Value="ASSINMENT_2"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter6/ASSINMENT_3.aspx" Text="ASSIGNMENT_3" Value="ASSINMENT_3"></asp:TreeNode>
+                            </asp:TreeNode>
+                            <asp:TreeNode Text="Chap_6_심화" Value="Chap_6_심화">
+                                <asp:TreeNode NavigateUrl="~/Chap_6_심화/Pro6-1-1.aspx" Text="Pro6-1-1" Value="Pro6-1-1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chap_6_심화/실전연습문제.aspx" Text="실전연습문제" Value="실전연습문제"></asp:TreeNode>
+                            </asp:TreeNode>
+                            <asp:TreeNode Text="Chap_7" Value="Chap_7">
+                                <asp:TreeNode NavigateUrl="~/Chapter7/ASSIGNMENT_1.aspx" Text="ASSIGNMENT_1" Value="ASSIGNMENT_1"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Chapter7/ASSIGNMENT_2.aspx" Text="ASSIGNMENT_2" Value="ASSIGNMENT_2"></asp:TreeNode>
+                            </asp:TreeNode>
+                        </asp:TreeNode>
+                    </Nodes>
+                </asp:TreeView>
+            </td>
+            <td class="auto-style3" style="background-color: #C0C0C0">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p class="auto-style8" style="background-color: #C0C0C0">
+                    &nbsp;</p>
+            </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style5" colspan="2"><span class="auto-style6">CopyRight </span><span class="auto-style6" style="font-family: Tahoma; font-size: small; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">ⓒ 2019. 윤승혁 All Right Reserved</span></td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>
