@@ -1,0 +1,93 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ASSIGNMENT_1.aspx.cs" Inherits="_20203176YunSeungHyeok.Chapter4.ASSIGNMENT_1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+    .auto-style9 {
+        width: 100%;
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-right: 1px solid #C0C0C0;
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-bottom: 1px solid #C0C0C0;
+    }
+    .auto-style10 {
+        text-align: center;
+        height: 20px;
+        background-color: #CC99FF;
+    }
+    .auto-style11 {
+        text-align: center;
+        height: 20px;
+        background-color: #CCFFFF;
+    }
+    .auto-style12 {
+        text-align: center;
+        height: 20px;
+        background-color: #FFFF00;
+    }
+    .auto-style13 {
+        background-color: #CCFFCC;
+    }
+    .auto-style14 {
+        background-color: #99FF99;
+    }
+    .auto-style15 {
+        background-color: #66FF66;
+    }
+    .auto-style16 {
+        background-color: #33CC33;
+    }
+    .auto-style17 {
+        background-color: #FFFF66;
+    }
+    .auto-style18 {
+        background-color: #FFFF99;
+    }
+    .auto-style19 {
+        background-color: #CC66FF;
+    }
+    .auto-style20 {
+        background-color: #CC33FF;
+    }
+    .auto-style21 {
+        background-color: #CC00FF;
+    }
+    .auto-style22 {
+        background-color: #9900CC;
+    }
+</style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <p>
+    <br />
+    VS의 상단 표 메뉴를 이용하여 테이블 만들기 할시에 테이블 셀의 경계선은 각 셀의 bgcolor 색을 바탕색과 다르게 설정하여 경계선을 나타낼 수 있다.....</p>
+<table class="auto-style9">
+    <tr>
+        <td class="auto-style11">bgcolor=&quot;#CCFFFF&quot;</td>
+        <td class="auto-style12">bgcolor=&quot;#FFFF00&quot;</td>
+        <td class="auto-style10">bgcolor=&quot;#CC99FF&quot;</td>
+    </tr>
+    <tr>
+        <td class="auto-style13">&nbsp;</td>
+        <td class="auto-style17">&nbsp;</td>
+        <td class="auto-style19">&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="auto-style14">&nbsp;</td>
+        <td class="auto-style18">&nbsp;</td>
+        <td class="auto-style20">&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="auto-style15">&nbsp;</td>
+        <td class="auto-style18">&nbsp;</td>
+        <td class="auto-style21">&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="auto-style16">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td class="auto-style22">&nbsp;</td>
+    </tr>
+</table>
+<p>
+</p>
+</asp:Content>
